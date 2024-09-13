@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page Giornalino</title>
+        <link rel="stylesheet" href="../styles/registrazione.css">
+    </head>
+    <body>
+      <nav>
+        | <a href="lettore.php">Home</a> |
+        <a href="login.html">Login</a> |
+        <a href="registrazione.html">Registrazione</a> |
+      </nav>
+        <h1 class="title">Giornalino J.F.Kennedy</br>Registrazione</h1>
+        <div class="container">
+          <form method="post" action="registrazione.php">
+          <div>
+              Inserire un username:</br>
+            <input type="text" name="username" placeholder="Username" required />
+            <br> Inserire una password: </br>
+            <input type="password" name="psw" placeholder="Password" required />
+          </div>
+        </br>
+          <div>
+              Che ruolo svolgi nel giornalino?
+              <select name="ruolo">
+                  <option value="validatore">Validatore</option>            
+                  <option value="scrittore">Scrittore</option>
+                  <option value="amministratore">Amministratore</option>              
+                  </select>
+                </br></br>
+            <input type="submit" class="btn" value ="registrazione">
+          </form>
+        </div>
+    </body>
+</html>

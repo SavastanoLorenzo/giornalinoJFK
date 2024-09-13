@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Scrittura articolo</title>
+    <link rel="stylesheet" type="text/css" href="../styles/scrittore.css">
+  </head>
+  <body>
+    <h1>Inserimento nuove notizie</h1>
+    <nav>
+      | <a href="../index.html">Home</a> |
+      <a href="login.html">Login</a> |
+      <a href="registrazione.html">Registrazione</a> |
+      <a href="../index.html">Logout <php? session_destroy(); ?></a> |
+    </nav>
+    </br>
+    <div class="scrivi">
+      <form method="post" action="scrittore.php">
+        <div class="container">
+            Inserire il titolo:</br>
+          <input type="text" class="titolo" name="titolo" placeholder="Titolo" required /></br>
+           <br> Inserire una breve descrizione della notizia: </br>
+          <input type="text" class="descrizione" name="descrizione" placeholder="Descrizione" required /> </br>
+          <br> Inserire il testo della notizia </br>
+          <input type="text" class="testo" name="testo" placeholder="Testo" required/></br>
+          <br> Inserire una hotword </br>
+          <input type="text" class="hWord" name="hotWord" placeholder="hotWord" required/></br>
+        </div></br>
+        <div class="categoria">
+            A che categoria appartiene questa notizia?
+            <select name="categoria">
+                <option value="1">Sport</option>            
+                <option value="2">Circolari</option>
+                <option value="3">Generale</option> 
+                <option value="4">Didattica</option>               
+                </select><br/>
+        </div></br>
+          <input type="submit" class="btn" value ="Carica la notizia">
+        </form>
+    </div>
+  </body>
+</html>

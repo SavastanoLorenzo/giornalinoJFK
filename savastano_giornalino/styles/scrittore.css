@@ -1,0 +1,87 @@
+p{
+    text-align: center;
+}
+
+nav{
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    background-color: #000;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    max-width: 350px;
+    margin: 0 auto;
+}
+
+.container{
+    text-align: center;
+}
+
+.testo{
+    text-align: center;
+    height:200px;
+    width: 60%;
+    font-size:14pt;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.descrizione{
+    text-align: center;
+    height:80px;
+    width: 60%;
+    font-size:14pt;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.titolo{
+    text-align: center;
+    height:40px;
+    width: 60%;
+    font-size:14pt;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+.hWord{
+    text-align: center;
+    height:40px;
+    width: 60%;
+    font-size:14pt;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+
+.categoria{
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 20px;
+    background-color: #3b9eff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+  }
+  
+  .btn:hover {
+    background-color: #2d6aff;
+  }
+
