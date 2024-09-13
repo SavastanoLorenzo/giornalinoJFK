@@ -15,7 +15,7 @@
                 session_start();
 
                 $dbHost="localhost";
-                $dbUsr="root";
+                $dbUsr="scrittore";
                 $dbPass="";
                 $dbName="giornalino";
 
@@ -31,7 +31,7 @@
                     $hotWord = $_POST['hotWord'];
                     $username = $_SESSION['username'];
                     //echo $username;
-                    $miaQuery="insert into notizie(titolo,descrizione,testo,categoria,validato,scrittore,hotword) VALUES('$titolo','$descrizione','$testo','$categoria','0','$username','hotWord');";
+                    $miaQuery="insert into notizie(titolo,descrizione,testo,categoria,validato,scrittore,hotword) VALUES('$titolo','$descrizione','$testo','$categoria','0','$username','$hotWord');";
                     $risultato=$conn->query($miaQuery);
                                 if(($risultato==FALSE)){
                                     echo "Query con errori: <br>";

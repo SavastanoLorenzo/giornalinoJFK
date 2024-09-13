@@ -22,7 +22,7 @@
             <form method='post' id='form' action='validatore.php'>
                 <?php
                     $dbHost="localhost";
-                    $dbUsr="root";
+                    $dbUsr="validatore";
                     $dbPass="";
                     $dbName="giornalino";
                  

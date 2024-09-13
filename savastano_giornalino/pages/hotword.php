@@ -20,7 +20,7 @@
 <?php
 
     $dbHost="localhost";
-    $dbUsr="root";
+    $dbUsr="lettore";
     $dbPass="";
     $dbName="giornalino";
 
@@ -31,7 +31,7 @@
             die("connessione fallita ".mysqli_connect_error());
         }
 
-        $miaQuery="select * from notizie where validato is not null and hotword='$hotword';";
+        $miaQuery="select * from notizie where validato is not null and hotword like'$hotword%';";
         $risultato=$conn->query($miaQuery);
         if(mysqli_num_rows($risultato) != 0){
             if(($risultato==FALSE)){

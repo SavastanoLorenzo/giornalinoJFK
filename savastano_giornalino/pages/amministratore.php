@@ -3,7 +3,7 @@
     <?php
         session_start();
             $dbHost="localhost";
-            $dbUsr="root";
+            $dbUsr="amministratore";
             $dbPass="";
             $dbName="giornalino";
 

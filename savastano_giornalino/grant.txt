@@ -1,0 +1,11 @@
+create user scrittore;
+create user validatore;
+create user lettore;
+create user amministratore;
+
+grant all on giornalino.amministratore.php to 'amministratore'@'localhost' identified by '';
+grant select on giornalino.index.php to 'lettore'@'localhost' identified by '';
+grant select on giornalino.login.php to 'lettore'@'localhost' identified by '';
+grant select on giornalino.registrazione.php to 'lettore'@'localhost' identified by '';
+grant select,update on giornalino.validatore.php to 'validatore'@'localhost' identified by '';
+grant select,insert on giornalino.scrittore.php to 'scrittore'@'localhost' identified by '';

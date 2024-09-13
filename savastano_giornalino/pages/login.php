@@ -1,7 +1,7 @@
 <?php
 
 $dbHost="localhost";
-$dbUsr="root";
+$dbUsr="lettore";
 $dbPass="";
 $dbName="giornalino";
 

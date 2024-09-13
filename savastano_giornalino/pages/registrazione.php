@@ -10,7 +10,7 @@
                 session_start();
 
                 $dbHost="localhost";
-                $dbUsr="root";
+                $dbUsr="lettore";
                 $dbPass="";
                 $dbName="giornalino";
 
